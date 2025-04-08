@@ -1,0 +1,25 @@
+🚀 Excited to share my latest project: NexaWave Browser! 🌊
+
+I've developed a modern web browser from scratch using Python and PyQt5, focusing on clean design and essential browsing features.
+
+✨ Key Features:
+• Sleek, modern UI with custom styling
+• Smart tab management with intuitive controls
+• Intelligent URL handling with integrated Google search
+• URL auto-completion for faster browsing
+• High DPI support for crystal-clear visuals on modern displays
+• Clean navigation with all essential browser controls
+
+🔧 Tech Stack:
+• Python
+• PyQt5
+• Qt WebEngine
+• Modern CSS styling with QSS
+
+This project demonstrates how powerful Python can be for desktop application development. I designed NexaWave to be lightweight yet feature-rich, with careful attention to user experience and visual aesthetics.
+
+👀 Check it out on GitHub: https://github.com/ilyas-doughmi/NexaWave-Browser
+
+I welcome any feedback, contributions, or feature suggestions! What features would you like to see in a modern browser?
+
+#Python #PyQt5 #WebBrowser #SoftwareDevelopment #OpenSource #Programming #DesktopApps #UI #UX #WebDevelopment 
