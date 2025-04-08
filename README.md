@@ -12,10 +12,6 @@
 
 <p align="center">A sleek, modern web browser built with Python and PyQt5. This project demonstrates how to create a feature-rich web browser with a clean, modern UI that's lightweight and customizable.</p>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/your-username/your-repo/main/screenshots/browser-screenshot.png" alt="NexaWave Browser Screenshot" width="80%">
-</div>
-
 ## ✨ Features
 
 - **🎨 Clean Modern Interface**: Sleek design with modern styling and intuitive controls
