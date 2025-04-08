@@ -19,9 +19,13 @@
 - **🧭 Modern Navigation**: Forward, back, reload, and home navigation buttons
 - **🔍 Smart URL Bar**: Intelligent URL handling with search functionality
 - **⚡ URL Auto-completion**: Remembers visited URLs for quick access
-- **📊 Progress Indication**: Subtle loading progress bar
-- **📱 Responsive Design**: Adapts to window resizing with proper layout management
+- **📊 Progress Indication**: Subtle loading progress bar with automatic hiding when complete
 - **🖥️ High DPI Support**: Optimized for high-resolution displays
+- **🔍 Integrated Search**: Search directly from the URL bar using Google
+- **🏠 Home Button**: Quick access to your homepage
+- **🔄 Reload**: Refresh the current page
+- **📋 Menu Bar**: File and Help menus with keyboard shortcuts
+- **ℹ️ About Dialog**: Information about the browser and developer
 
 ## 🔧 Requirements
 
@@ -33,8 +37,8 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/nexawave-browser.git
-   cd nexawave-browser
+   git clone https://github.com/ilyas-doughmi/NexaWave-Browser.git
+   cd NexaWave-Browser
    ```
 
 2. Create and activate a virtual environment (recommended):
@@ -67,6 +71,9 @@ python browser.py
 - Enter search terms to search using Google
 - Use navigation buttons to move back, forward, reload, or go home
 - Click the + button to open a new tab
+- Use Ctrl+T to open a new tab
+- Use Ctrl+W to close the current tab
+- Use Ctrl+Q to exit the browser
 
 ## ⚙️ Customization
 
@@ -91,6 +98,7 @@ The browser uses QSS (Qt Style Sheets) for styling. You can customize the appear
 - `requirements.txt` - Required Python packages
 - `LICENSE` - MIT license file
 - `README.md` - This documentation file
+- `nexawave_logo.png` - Browser logo image
 
 ## 🛠️ How it Works
 
@@ -101,25 +109,6 @@ NexaWave Browser is built on PyQt5 and uses QWebEngineView for rendering web con
 - **NavigationToolBar**: Contains browser controls
 - **ModernProgressBar**: Visual loading indicator
 - **Browser**: Main window that integrates all components
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can contribute:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b new-feature`
-3. Commit your changes: `git commit -am 'Add a new feature'`
-4. Push to the branch: `git push origin new-feature`
-5. Submit a pull request
-
-## 🔮 Future Enhancements
-
-- 🔖 Bookmarks management
-- 📜 History viewer
-- 📥 Download manager
-- 🧩 Extensions support
-- 🎭 Custom themes
-- 🕵️‍♂️ Private browsing mode
 
 ## 📝 License
 
