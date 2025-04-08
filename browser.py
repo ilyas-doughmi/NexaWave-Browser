@@ -16,6 +16,9 @@ BROWSER_VERSION = "1.0"
 # We'll initialize the browser icon later after QApplication is created
 BROWSER_ICON = None
 
+# Path to the logo file
+LOGO_PATH = "nexawave_logo.png"
+
 class UrlBar(QLineEdit):
     """Custom URL bar with rounded corners and better styling"""
     def __init__(self, parent=None):
@@ -516,15 +519,19 @@ if __name__ == "__main__":
     app.setOrganizationDomain("ilyas-doughmi.vercel.app")
     
     # Now create the browser icon after QApplication is initialized
-    BROWSER_ICON = QIcon("favicon.ico")  # Fallback to a simple icon file
-    
-    # Create simple favicon.ico file if it doesn't exist
-    if not os.path.exists("favicon.ico"):
-        # Create a simple blue icon as a fallback
-        icon_pixmap = QPixmap(64, 64)
-        icon_pixmap.fill(QColor(59, 130, 246))  # Blue color
-        icon_pixmap.save("favicon.ico")
+    if os.path.exists(LOGO_PATH):
+        BROWSER_ICON = QIcon(LOGO_PATH)
+    else:
+        # Fallback to a simple icon file if logo doesn't exist
         BROWSER_ICON = QIcon("favicon.ico")
+        
+        # Create simple favicon.ico file if it doesn't exist
+        if not os.path.exists("favicon.ico"):
+            # Create a simple blue icon as a fallback
+            icon_pixmap = QPixmap(64, 64)
+            icon_pixmap.fill(QColor(59, 130, 246))  # Blue color
+            icon_pixmap.save("favicon.ico")
+            BROWSER_ICON = QIcon("favicon.ico")
     
     # Set application palette for a cohesive look
     palette = QPalette()

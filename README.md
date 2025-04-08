@@ -1,6 +1,10 @@
 # 🌐 NexaWave Browser
 
 <div align="center">
+  <img src="nexawave_logo.png" alt="NexaWave Browser Logo" width="150px">
+</div>
+
+<div align="center">
   <img src="https://img.shields.io/badge/Python-3.6+-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/PyQt-5.15+-orange.svg" alt="PyQt Version">
